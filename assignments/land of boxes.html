@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)http://localhost:52330/assignments/assignment%203.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf -8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
+    <title> land of boxes </title>
+    <style>
+        body{
+            font-family: initial;
+            background-color: bisque;
+            padding: 20px;
+        }
+        table{
+            width: 50%;
+            margin-bottom: 20px;
+            border-collapse: collapse;
+        }
+        th , td {
+            text-align: left;
+            padding: 8px;
+            border-bottom: 1px solid black;
+            border-left: 1px solid black ;
+            border-top: 1px solid black;
+            border-right: 1px solid black;
+        }
+        th{
+            background-color: lightgray ;
+        }
+        input[type="number"], input[type="text"], input[type="email"], input[type="tel"], input[type="text"] {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: grey;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+    </style>
+
+   
+</head>
+<body>
+    <h1> Land of boxes.</h1>
+     
+    <table class="Contact"> 
+        <tbody><tr>
+            <th colspan="2">Contact</th>
+        </tr>
+        <tr><td>Name : <input type="text " name="name" required=""></td>
+        </tr><tr>
+            <td>Phone number : <input type="tel" name="Phone number" required=""> </td>
+        </tr>
+        <tr> 
+        <td> Address : <input type="text" name="Address"> </td>
+        </tr>
+        <tr>
+            <td>Email : <input type="email" name="Email"></td>
+        </tr>
+      </tbody></table>
+      
+      <br><br><table class="Product details">
+        
+        <tbody><tr>
+            
+            <th>Product</th>
+            <th>Price </th>
+            <th>Quantity</th>
+            <th>Product no.</th>
+
+             </tr><tr> 
+            <td>The EconoBox </td>
+            <td> R5 </td>
+            <td><input type="number" name="standardbox" min="0"></td>
+            <td> 101</td>
+            </tr>
+        <tr>
+            <td>The Standard Box </td>
+            <td> R10 </td>
+            <td> <input type="number" name="standardbox" min="0"></td>
+            <td> 102</td>
+        </tr>
+        <tr>
+            <td> The Premium Box  </td>
+            <td> R15 </td>
+            <td> <input type="number" name="standardbox" min="0"></td>
+            <td> 103 </td>
+        </tr>
+        <tr>
+            <td> The Deluxe Box </td>
+            <td> R20 </td>
+            <td> <input type="number" name="standardbox" min="0"></td>
+            <td> 104 </td>
+        </tr>
+        <tr>
+            <td> The Super Deluxe Box </td>
+            <td> R30 </td>
+            <td> <input type="number" name="standardbox" min="0"> </td>
+            <td> 105 </td>
+        </tr>
+        
+        </tbody></table><br><br><table class="details-table">
+            
+            <tbody><tr> 
+                <th colspan="2"> Payment Details</th>
+            </tr>
+            <tr>
+                <td> Card Type : <input type="text" name="cardtype" required=""> </td>
+            </tr>
+            <tr> 
+                <td> Card Number : <input type="text" name="cardnumber" required=""> </td>
+            </tr>
+            <tr> 
+                <td> Expiry Date : <input type="text" name="expirydate" required=""></td>
+            </tr>
+
+             </tbody></table>
+
+      
+      <br>
+      <input type="Submit" value="Submit order">
+
+    
+
+</body></html>
