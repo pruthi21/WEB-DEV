@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf -8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
+    <title> portfolio </title>
+    
+
+    <style>
+        body{
+            h1 , h2, p ,ul{
+                margin: 0;
+                padding: 0;
+                line-height: 1.6;
+                padding: 20px;
+                justify-content: center;
+                
+                
+                
+                
+            }
+        }
+        body{
+            color: black;
+            background: darkgray;
+            
+        }
+        nav ul {list-style: none;
+            
+        }
+        nav ul li{ display: inline-block;
+            margin-right: 25px;
+            color: black;
+
+        }
+        nav{
+            background-color: darkslateblue ;
+        }
+        nav li{ margin-left: 150px;
+
+        }
+        a{
+            color: black;
+        }
+        .div1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            font-size: large;
+            color: black;
+        }
+        .div1 {
+    font-family: 'Pacifico', cursive; 
+    font-size: 20px; 
+    background-image: linear-gradient(35deg, #6a5acd, #ff47a3, #067952, #3700ff, #e016bf);
+    
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+@keyframes rainbow {
+    0%,100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}
+.div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.photo{
+    width: 280px; /* Set the width of your photo */
+    height: 350px; /* Set the height of your photo */
+    border-radius: 0%; /* Makes the photo circular */
+    margin-right: 50px; /* Space between the photo and the text */
+    border: 3px solid black ; /* Adds a white border around the photo */
+    background-color: pink; /* Sets the background color to white */
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;  // Smooth transition for transform changes
+    cursor: pointer;
+}
+.photo:hover{
+    transform: scale(1.1);  // Scales up the image by 10% when hovered
+}
+
+
+
+
+        
+      
+
+
+
+        
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="http://localhost:52330/portfolio.html">ABOUT</a></li>
+                <li><a href="http://localhost:52330/project.html">PROJECTS</a></li>
+                <li><a href="http://localhost:52330/certificates.html">CERTIFICATES</a></li>
+                <li><a href="http://localhost:52330/contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    
+    
+    <section id="ABOUT">
+        
+        <marquee direction="right" > <h1>WELCOME TO MY PORTFOLIO.</h1> </marquee>
+    </section>
+            <div class="div1"> 
+            <h1>My Name Is<BR>Pruthika Wankar.<br>I Am A Full Stack Developer.    </h1>
+               
+            </div>
+            <div class="div2">
+                <img src="img/photopww.jpg" alt="PRUTHIKA WANKAR" class="photo" >
+            </div>
+            
+            
+
+
+        
+        <p>Hello! I'm Pruthika Wankar, a skilled professional with expertise in SQL and web development. My passion for creating efficient databases and designing responsive websites drives me to deliver exceptional results in every project. Welcome to my portfolio, where you can explore my projects, certifications, and the professional journey that has shaped my career.<form>  <H3> PROFFESSIONAL EXPERIENCE:</H3>COMPANY NAME: Hexaware Technologies.<br>Position: Excutive Associate<br> Duration: June 2022 Till September 2023 <h3>EDUCATION :</h3>College Name: City Premier College, Nagpur. <BR>Degree: Bachelor of Commerce. <br>Since : September 2021- Present .<h3>KEY SKILLS: <UL>Problem solving.<br>Multitasking.<br>Good Communication skills.<br>Back-End Programming Languages.<br>Front-End Programming Languages.<br>SQL.</UL></h3></p> </form>
+
+            
+        
+    
+</header>
+
+    
+    
+    
+   
+</body>
+
+</html>
